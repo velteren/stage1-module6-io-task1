@@ -35,7 +35,9 @@ public class FileReader {
                 }
             }
             return new Profile(name, age, email, phone);
-        } catch (IOException e) {}
+        } catch (IOException e) {
+            System.out.println();
+        }
         return null;
     }
 }
